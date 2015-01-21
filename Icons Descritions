@@ -1,0 +1,27 @@
+Icons:
+	ic:
+		96x96
+		util : 
+
+Laucher icons:
+	ic_launcher:
+		48x48
+
+Menu & ActionBar Icons:
+	ic_menu, ic_action:
+		32 x 32
+		util: 24 x 24	
+	
+Contextual Icons
+	ic_:
+		16x16
+		util: 12x12
+
+
+ic_:
+	96 x 96		
+
+
+ic_notification:
+	24x24 dp
+	Optical square, 22x22 dp
