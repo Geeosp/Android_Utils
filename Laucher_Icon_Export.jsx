@@ -4,7 +4,7 @@
 
 var DPIS = {
     'facebook': 10,
-  'googleplay': 5.3333333,
+  'googleplay': (512/96),
      'xxxhdpi': 4,
       'xxhdpi': 3,
         'xhdpi': 2,
