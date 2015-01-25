@@ -3,18 +3,20 @@
 // Script that exports action bar icons from Illustrator
 
 var DPIS = {
- 'xxxhdpi': 4,
-  'xxhdpi': 3,
-   'xhdpi': 2,
-    'hdpi': 1.5,
-    'mdpi': 1,
-    'ldpi': 0.5
+    'facebook': 10,
+  'googleplay': 5.3333333,
+     'xxxhdpi': 4,
+      'xxhdpi': 3,
+        'xhdpi': 2,
+        'hdpi': 1.5,
+        'mdpi': 1,
+        'ldpi': 0.5
 };
 
 var STYLES = {
   'style': {
     //'color': '#ffffff',
-    //'opacity': 80
+    'opacity': 100
   }
 };
 
@@ -113,17 +115,17 @@ function go(choose) {//"icon" or "density"
         activeDocument.exportFile(destFile, ExportType.PNG24, opts);
       }
     }
-/*
+
     // Reset state
     if (!layer.locked) {
       layer.opacity = 100;
     }
-   // layer.visible = false;
+    layer.visible = false;
 
     for (var i = 0; i < anc.length; i++) {
       if ('visible' in anc[i]) anc[i].visible = false;
     }
-    */
+    
   });
 
   // Show all layers
